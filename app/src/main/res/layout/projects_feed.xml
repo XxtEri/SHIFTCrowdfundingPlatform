@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProjectsFeedcActiviy">
+    tools:context=".ProjectsFeedActivity">
 
     <ImageView
         android:id="@+id/backgroundUp"
@@ -43,7 +43,7 @@
             android:inputType="text"
             android:text="@string/search"
             android:textColor="@color/editText"
-            android:background="null"
+            android:background="@null"
             tools:ignore="MissingConstraints"/>
 
         <ImageButton
@@ -57,7 +57,7 @@
 
     </LinearLayout>
 
-<!--    лист проектов-->
+<!--    лист проетов-->
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
