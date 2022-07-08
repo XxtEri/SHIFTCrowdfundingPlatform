@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.shift.databinding.ProjectsFeedBinding
 
-class ProjectsFeed : AppCompatActivity() {
+class ProjectsFeedActivity : AppCompatActivity() {
 
     private lateinit var bindingProjectsFeed: ProjectsFeedBinding
 
@@ -13,5 +13,14 @@ class ProjectsFeed : AppCompatActivity() {
 
         bindingProjectsFeed = ProjectsFeedBinding.inflate(layoutInflater)
         setContentView(bindingProjectsFeed.root)
+
+        createListProjects()
+    }
+
+    /**
+     * создание списка проектов в ленте
+     */
+    fun createListProjects() {
+
     }
 }

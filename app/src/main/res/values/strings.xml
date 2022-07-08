@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SHIFT</string>
     <string name="search">поиск</string>
+    <string name="nameProject">Название проекта</string>
+    <string name="descriptionProject">Описание крутого проекта, в который необходимо вложиться всем. Не пожалеете!</string>
+
 </resources>

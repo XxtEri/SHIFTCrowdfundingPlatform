@@ -10,5 +10,6 @@
 
     <color name="search">#EEEEEE</color>
     <color name="editText">#727272</color>
-
+    <color name="cardProject">#262E8FAE</color>
+    <color name="lineMoney">#DDC33D</color>
 </resources>

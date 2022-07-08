@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:maxWidth="140dp"
+    android:maxHeight="130dp"
+    android:background="@drawable/rounded_rectangle"
+    android:backgroundTint="@color/cardProject"
+    tools:parentTag="android.widget.LinearLayout">
+
+<!--    добавить шрифт-->
+    <TextView
+        android:id="@+id/texNameProject"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:text="@string/nameProject"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textDescriptionProject"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        android:textSize="9sp"
+        android:text="@string/descriptionProject"
+        android:maxLength="35"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lineMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:id="@+id/baseLine"
+            android:layout_width="118dp"
+            android:layout_height="10dp"
+            android:background="@drawable/rounded_rectangle"
+            android:backgroundTint="@color/white"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/changeMoneyLine"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:background="@drawable/rounded_rectangle"
+            android:backgroundTint="@color/lineMoney"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/collectedMoney"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:text=""
+        android:maxLength="20"
+        android:layout_gravity="end"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="21dp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+</merge>

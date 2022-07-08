@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProjectsFeed">
+    tools:context=".ProjectsFeedcActiviy">
 
     <ImageView
         android:id="@+id/backgroundUp"
@@ -16,18 +16,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
-        android:id="@+id/iconAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_plus"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/search"
-        app:layout_constraintTop_toBottomOf="@id/backgroundUp"
-        tools:ignore="MissingConstraints"/>
-
     <LinearLayout
         android:id="@+id/search"
         android:layout_width="wrap_content"
@@ -36,18 +24,18 @@
         android:background="@drawable/rounded_rectangle"
         android:backgroundTint="@color/search"
         android:layout_marginTop="0dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintTop_toBottomOf="@id/backgroundUp"
-        app:layout_constraintStart_toEndOf="@id/iconAdd"
-        app:layout_constraintEnd_toStartOf="@id/iconFilter">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
 <!--        добавить шрифт-->
         <EditText
             android:id="@+id/textSearch"
-            android:layout_width="208dp"
+            android:layout_width="295dp"
             android:layout_height="25dp"
-            android:maxWidth="208dp"
+            android:maxWidth="240dp"
             android:textSize="12sp"
             android:textAlignment="textStart"
             android:layout_marginStart="14dp"
@@ -69,19 +57,24 @@
 
     </LinearLayout>
 
-
-
-    <ImageButton
-        android:id="@+id/iconFilter"
+<!--    лист проектов-->
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_filter"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="15dp"
-        app:layout_constraintStart_toEndOf="@id/search"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/backgroundUp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@id/search">
+
+        <TableLayout
+            android:id="@+id/listProjects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TableLayout>
+
+    </ScrollView>
+
 
     <ImageView
         android:id="@+id/backgroundDown"
