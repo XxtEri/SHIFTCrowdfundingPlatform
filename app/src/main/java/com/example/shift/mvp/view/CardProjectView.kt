@@ -1,5 +1,6 @@
 package com.example.shift.mvp.view
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
@@ -41,8 +42,9 @@ class CardProjectView @JvmOverloads constructor(
     /**
      * Задаем собранную сумму
      */
+    @SuppressLint("SetTextI18n")
     fun setNewCollectedMoneyProject(newCollectedMoney: Double) {
-        cardProjectBinding.collectedMoney.text = newCollectedMoney.toString()
+        cardProjectBinding.collectedMoney.text = newCollectedMoney.toString() + "руб."
     }
 
     /**
