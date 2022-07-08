@@ -17,7 +17,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/add"
+        android:id="@+id/iconAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/ic_plus"
@@ -28,22 +28,51 @@
         app:layout_constraintTop_toBottomOf="@id/backgroundUp"
         tools:ignore="MissingConstraints"/>
 
-    <EditText
+    <LinearLayout
         android:id="@+id/search"
-        android:layout_width="260dp"
-        android:layout_height="25dp"
-        android:backgroundTint="@color/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:background="@drawable/rounded_rectangle"
+        android:backgroundTint="@color/search"
         android:layout_marginTop="0dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintTop_toBottomOf="@id/backgroundUp"
-        app:layout_constraintStart_toEndOf="@id/add"
-        app:layout_constraintEnd_toStartOf="@id/filter"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintStart_toEndOf="@id/iconAdd"
+        app:layout_constraintEnd_toStartOf="@id/iconFilter">
+
+<!--        добавить шрифт-->
+        <EditText
+            android:id="@+id/textSearch"
+            android:layout_width="208dp"
+            android:layout_height="25dp"
+            android:maxWidth="208dp"
+            android:textSize="12sp"
+            android:textAlignment="textStart"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="6dp"
+            android:inputType="text"
+            android:text="@string/search"
+            android:textColor="@color/editText"
+            android:background="null"
+            tools:ignore="MissingConstraints"/>
+
+        <ImageButton
+            android:id="@+id/iconSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_magnifier"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="11dp" />
+
+    </LinearLayout>
+
+
 
     <ImageButton
-        android:id="@+id/filter"
+        android:id="@+id/iconFilter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/ic_filter"

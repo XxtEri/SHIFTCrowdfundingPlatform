@@ -10,7 +10,8 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/rounded_rectangle.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21614583333333334" />
-        <entry key="app/src/main/res/layout/projects_feed.xml" value="0.30693817138671875" />
+        <entry key="app/src/main/res/layout/item_search.xml" value="0.6537094116210939" />
+        <entry key="app/src/main/res/layout/projects_feed.xml" value="0.370138564456474" />
       </map>
     </option>
   </component>
