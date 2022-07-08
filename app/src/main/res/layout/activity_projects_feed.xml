@@ -86,5 +86,28 @@
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        app:layout_constraintStart_toStartOf="@id/backgroundDown"
+        app:layout_constraintEnd_toEndOf="@id/backgroundDown"
+        app:layout_constraintTop_toTopOf="@id/backgroundDown">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_projects_feed"
+            android:layout_marginEnd="100dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_profil"
+            android:layout_marginStart="100dp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
