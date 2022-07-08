@@ -13,7 +13,8 @@
         <entry key="app/src/main/res/drawable/rounded_rectangle.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21614583333333334" />
         <entry key="app/src/main/res/layout/activity_profil.xml" value="0.12259371833839919" />
-        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.21084092734516519" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.1379283296889152" />
+        <entry key="app/src/main/res/layout/activity_projects_feed.xml" value="0.12259371833839919" />
         <entry key="app/src/main/res/layout/content_profil.xml" value="0.12259371833839919" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.12259371833839919" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.12259371833839919" />
@@ -22,6 +23,7 @@
         <entry key="app/src/main/res/layout/item_line_money.xml" value="0.12259371833839919" />
         <entry key="app/src/main/res/layout/item_search.xml" value="0.6537094116210939" />
         <entry key="app/src/main/res/layout/projects_feed.xml" value="0.34982299804687506" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

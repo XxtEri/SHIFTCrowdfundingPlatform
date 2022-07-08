@@ -18,6 +18,7 @@
             android:exported="false"
             android:label="@string/title_activity_profil"
             android:theme="@style/Theme.SHIFT.NoActionBar" />
+
         <activity
             android:name=".ProjectsFeedActivity"
             android:exported="true">

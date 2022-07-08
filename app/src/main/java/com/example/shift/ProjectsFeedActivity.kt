@@ -1,26 +1,31 @@
 package com.example.shift
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.shift.databinding.ProjectsFeedBinding
+import com.example.shift.databinding.ActivityProfileBinding
+import com.example.shift.databinding.ActivityProjectsFeedBinding
 
 class ProjectsFeedActivity : AppCompatActivity() {
 
-    private lateinit var bindingProjectsFeed: ProjectsFeedBinding
+    private lateinit var projectsFeedBinding: ActivityProjectsFeedBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        bindingProjectsFeed = ProjectsFeedBinding.inflate(layoutInflater)
-        setContentView(bindingProjectsFeed.root)
+        projectsFeedBinding = ActivityProjectsFeedBinding.inflate(layoutInflater)
+        setContentView(projectsFeedBinding.root)
 
-        createListProjects()
+        transitionsBetweenActivity()
     }
 
-    /**
-     * создание списка проектов в ленте
-     */
-    fun createListProjects() {
+    private fun transitionsBetweenActivity() {
+        projectsFeedBinding.btnProfile.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+        }
 
+        projectsFeedBinding.btnProjectsFeed.setOnClickListener {
+            startActivity(Intent(this, ProjectsFeedActivity::class.java))
+        }
     }
 }
