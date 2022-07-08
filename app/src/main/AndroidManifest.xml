@@ -14,7 +14,7 @@
         android:theme="@style/Theme.SHIFT"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ProjectsFeed"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
