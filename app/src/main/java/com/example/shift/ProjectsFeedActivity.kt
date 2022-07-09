@@ -21,7 +21,7 @@ class ProjectsFeedActivity : AppCompatActivity() {
 
     private fun transitionsBetweenActivity() {
         projectsFeedBinding.btnProfile.setOnClickListener {
-            startActivity(Intent(this, ProfileActivity::class.java))
+            startActivity(Intent(this, AuthorizationActivity::class.java))
         }
 
         projectsFeedBinding.btnProjectsFeed.setOnClickListener {

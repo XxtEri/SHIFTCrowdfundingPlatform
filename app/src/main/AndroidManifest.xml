@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.shift">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,17 +16,25 @@
         android:theme="@style/Theme.SHIFT"
         tools:targetApi="31">
         <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SHIFT.NoActionBar"/>
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SHIFT.NoActionBar"/>
+        <activity
+            android:name=".AuthorizationActivity"
+            android:exported="false"/>
+        <activity
             android:name=".ProfileActivity"
             android:exported="false"
-            android:label="@string/title_activity_profil"
             android:theme="@style/Theme.SHIFT.NoActionBar" />
-
         <activity
             android:name=".ProjectsFeedActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

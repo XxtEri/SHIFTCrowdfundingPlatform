@@ -1,15 +1,27 @@
 <resources>
     <string name="app_name">SHIFT</string>
+    <string name="name_project">giveOFFER</string>
 
-<!--    главное меню-->
+    <!--    меню авторизации-->
+    <string name="sign_in">Войти</string>
+    <string name="registration">Зарегестрироваться</string>
+
+    <!--    главное меню-->
     <string name="search">поиск</string>
     <string name="nameProject">Название проекта</string>
     <string name="descriptionProject">Описание крутого проекта, в который необходимо вложиться всем. Не пожалеете!</string>
     <string name="title_activity_profil">ProfilActivity</string>
 
-<!--    меню профиля-->
+    <!--    меню профиля-->
     <string name="settingsText">Настройки</string>
     <string name="profileText">Профиль</string>
     <string name="exitText">Выход</string>
+
+    <!--    меню регистрации-->
+    <string name="lastName">Фамилия *</string>
+    <string name="firstName">Имя *</string>
+    <string name="patronymic">Отчество</string>
+    <string name="email">email *</string>
+    <string name="password">пароль *</string>
 
 </resources>
