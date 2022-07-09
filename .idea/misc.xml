@@ -4,8 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_avatarka.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/ic_background.xml" value="0.191" />
+        <entry key="app/src/main/res/drawable/ic_background_down.xml" value="0.191" />
+        <entry key="app/src/main/res/drawable/ic_filter.xml" value="0.191" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_projects_feed.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/rounded_rectangle.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21614583333333334" />
+        <entry key="app/src/main/res/layout/activity_profil.xml" value="0.12259371833839919" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.1379283296889152" />
+        <entry key="app/src/main/res/layout/activity_projects_feed.xml" value="0.12259371833839919" />
+        <entry key="app/src/main/res/layout/content_profil.xml" value="0.12259371833839919" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.12259371833839919" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.12259371833839919" />
+        <entry key="app/src/main/res/layout/ic_line_money.xml" value="0.8590425531914894" />
+        <entry key="app/src/main/res/layout/item_card_project.xml" value="0.3630142567488681" />
+        <entry key="app/src/main/res/layout/item_line_money.xml" value="0.12259371833839919" />
+        <entry key="app/src/main/res/layout/item_search.xml" value="0.6537094116210939" />
+        <entry key="app/src/main/res/layout/projects_feed.xml" value="0.34982299804687506" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SHIFT</string>
+
+<!--    главное меню-->
+    <string name="search">поиск</string>
+    <string name="nameProject">Название проекта</string>
+    <string name="descriptionProject">Описание крутого проекта, в который необходимо вложиться всем. Не пожалеете!</string>
+    <string name="title_activity_profil">ProfilActivity</string>
+
+<!--    меню профиля-->
+    <string name="settingsText">Настройки</string>
+    <string name="profileText">Профиль</string>
+    <string name="exitText">Выход</string>
+
 </resources>
