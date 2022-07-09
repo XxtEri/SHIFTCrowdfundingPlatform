@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.shift" >
+    package="com.example.shift">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,24 +14,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SHIFT"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".SingInActivity"
-            android:exported="false" />
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SHIFT.NoActionBar"/>
         <activity
-            android:name=".authorization.AuthorizationActivity"
-            android:exported="false" />
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SHIFT.NoActionBar"/>
+        <activity
+            android:name=".AuthorizationActivity"
+            android:exported="false"/>
         <activity
             android:name=".ProfileActivity"
             android:exported="false"
-            android:label="@string/title_activity_profil"
             android:theme="@style/Theme.SHIFT.NoActionBar" />
         <activity
             android:name=".ProjectsFeedActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

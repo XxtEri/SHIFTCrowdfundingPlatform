@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">SHIFT</string>
     <string name="name_project">giveOFFER</string>
+
+    <!--    меню авторизации-->
     <string name="sign_in">Войти</string>
     <string name="registration">Зарегестрироваться</string>
 
@@ -14,5 +16,12 @@
     <string name="settingsText">Настройки</string>
     <string name="profileText">Профиль</string>
     <string name="exitText">Выход</string>
+
+    <!--    меню регистрации-->
+    <string name="lastName">Фамилия *</string>
+    <string name="firstName">Имя *</string>
+    <string name="patronymic">Отчество</string>
+    <string name="email">email *</string>
+    <string name="password">пароль *</string>
 
 </resources>

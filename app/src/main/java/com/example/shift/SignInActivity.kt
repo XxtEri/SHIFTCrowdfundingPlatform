@@ -1,16 +1,26 @@
-package com.example.shift.authorization
+package com.example.shift
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.shift.R
+import androidx.appcompat.app.AppCompatActivity
+import com.example.shift.authorization.AuthorizationApi
+import com.example.shift.authorization.AuthorizationApp
+import com.example.shift.authorization.User
+import com.example.shift.databinding.ActivityProfileBinding
+import com.example.shift.databinding.ActivitySignInBinding
+import com.example.shift.databinding.ItemCardProjectBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class AuthorizationActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
+
+    private lateinit var signInActivityBinding: ActivitySignInBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menu_sign_reg)
+
+        signInActivityBinding = ActivitySignInBinding.inflate(layoutInflater)
+        setContentView(signInActivityBinding.root)
     }
 
     private fun getInfoUsers() {

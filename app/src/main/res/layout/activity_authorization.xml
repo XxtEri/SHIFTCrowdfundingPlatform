@@ -2,37 +2,33 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clipChildren="false"
-    tools:context=".MainActivity"
-    tools:viewBindingIgnore="true" >
+    tools:context=".AuthorizationActivity">
 
     <ImageView
-        android:id="@+id/background"
+        android:id="@+id/background_center"
         android:layout_width="match_parent"
         android:layout_height="560dp"
-        android:background="@drawable/ic_background"
+        android:background="@drawable/ic_background_center"
         android:foregroundGravity="center_vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <ImageView
-        android:id="@+id/logo"
+        android:id="@+id/arrowBack"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="84dp"
         android:background="@drawable/ic_logo"
-        app:layout_constraintEnd_toEndOf="@id/background"
-        app:layout_constraintStart_toStartOf="@id/background"
-        app:layout_constraintTop_toTopOf="@id/background" />
+        app:layout_constraintEnd_toEndOf="@id/background_center"
+        app:layout_constraintStart_toStartOf="@id/background_center"
+        app:layout_constraintTop_toTopOf="@id/background_center" />
 
     <TextView
-        android:id="@+id/nameProject"
+        android:id="@+id/signIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
@@ -42,10 +38,10 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="35sp"
-        app:layout_constraintStart_toStartOf="@id/background"
-        app:layout_constraintEnd_toEndOf="@id/background"
-        app:layout_constraintTop_toBottomOf="@id/logo"
-        app:layout_constraintBottom_toBottomOf="@id/background"/>
+        app:layout_constraintStart_toStartOf="@id/background_center"
+        app:layout_constraintEnd_toEndOf="@id/background_center"
+        app:layout_constraintTop_toBottomOf="@id/arrowBack"
+        app:layout_constraintBottom_toBottomOf="@id/background_center"/>
 
     <ImageButton
         android:id="@+id/buttonSignIn"
@@ -53,10 +49,10 @@
         android:layout_height="30dp"
         android:layout_marginTop="79dp"
         android:background="@drawable/button"
-        app:layout_constraintBottom_toBottomOf="@id/background"
-        app:layout_constraintEnd_toEndOf="@id/background"
-        app:layout_constraintStart_toStartOf="@id/background"
-        app:layout_constraintTop_toBottomOf="@id/nameProject"
+        app:layout_constraintBottom_toBottomOf="@id/background_center"
+        app:layout_constraintEnd_toEndOf="@id/background_center"
+        app:layout_constraintStart_toStartOf="@id/background_center"
+        app:layout_constraintTop_toBottomOf="@id/signIn"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -85,8 +81,8 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="21dp"
-        app:layout_constraintEnd_toEndOf="@id/background"
-        app:layout_constraintStart_toStartOf="@id/background"
+        app:layout_constraintEnd_toEndOf="@id/background_center"
+        app:layout_constraintStart_toStartOf="@id/background_center"
         app:layout_constraintTop_toBottomOf="@id/buttonSignIn"/>
 
     <ImageButton
@@ -95,9 +91,9 @@
         android:layout_height="30dp"
         android:layout_marginTop="18dp"
         android:background="@drawable/button"
-        app:layout_constraintBottom_toBottomOf="@id/background"
-        app:layout_constraintEnd_toEndOf="@id/background"
-        app:layout_constraintStart_toStartOf="@id/background"
+        app:layout_constraintBottom_toBottomOf="@id/background_center"
+        app:layout_constraintEnd_toEndOf="@id/background_center"
+        app:layout_constraintStart_toStartOf="@id/background_center"
         app:layout_constraintTop_toBottomOf="@id/line"
         app:layout_constraintVertical_bias="0.0" />
 
