@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">SHIFT</string>
+    <string name="name_project">giveOFFER</string>
+    <string name="sign_in">Войти</string>
+    <string name="registration">Зарегестрироваться</string>
 
     <!--    главное меню-->
     <string name="search">поиск</string>

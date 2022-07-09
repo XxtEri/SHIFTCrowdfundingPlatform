@@ -1,12 +1,13 @@
-package com.example.shift.authorization
+package com.example.shift
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.shift.R
 
-class SingInActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sing_in)
+        setContentView(R.layout.activity_main)
     }
 }
